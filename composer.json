@@ -1,0 +1,26 @@
+{
+    "name": "fonggree/wechat",
+    "description": "WeChat Js Sdk",
+    "keywords": ["WeChat", "Js Sdk"],
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "moko",
+            "email": "moko@oovmi.com"
+        }
+    ],
+	"require": {
+        "php": "^7.1.3",
+        "illuminate/support": "5.7.*"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FongGree\\WeChat\\": "src/WeChat"
+        }
+    }
+	
+}
